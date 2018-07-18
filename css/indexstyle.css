@@ -115,13 +115,9 @@ nav a:hover{
   margin-bottom:20px;
 }
 
--------
-
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
   margin: auto;
-  background-image: url(images/crayon.jpg);
 }
 .form {
   position: relative;
@@ -215,5 +211,74 @@ body {
 
 .backlogin{
   overflow: auto;
-  background-image:  url("imagescss/crayon.jpg");
+  background-image:  url("imagescss/crayonlogin.jpg");
 }
+
+-----
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #393939;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #ffd843;
+  font-family: "ABeeZee";
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}  
