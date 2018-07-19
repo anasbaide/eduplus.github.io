@@ -84,6 +84,24 @@ nav a:hover{
   font-size: 14px;
 }
 
+.class1-2{
+  color:#393939;
+  font-family: 'ABeeZee';
+  display: block;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 14px;
+}
+
+.class3{
+  color:#393939;
+  font-family: 'ABeeZee';
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 14px;
+}
+
 .one{
   text-align: center;
   padding-top: 20px;
